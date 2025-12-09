@@ -58,6 +58,8 @@ Executar:
 Exemplo:
 
 ./sudoku sudoku.txt resposta.txt
+````
+---
 
 🧠 Algoritmo Utilizado
 
@@ -72,6 +74,8 @@ O resolvedor utiliza backtracking, seguindo estes passos:
     Caso gere conflito, desfaz e tenta outro
 
     Continua até completar ou detectar impossibilidade
+
+---
 
 🏗️ Implementação
 
@@ -89,21 +93,5 @@ Principais métodos da classe Sudoku:
 
     resolverJogo() — integra validação + resolução
 
-🤝 Contribuições
-
-Contribuições, melhorias e sugestões são bem-vindas!
-📄 Licença
-
-Uso livre para fins pessoais e acadêmicos.
-
-
 ---
 
-Se quiser um README:
-
-✅ com badges (C++, status, licença)  
-✅ com GIF/print do programa  
-✅ super minimalista  
-✅ totalmente em inglês  
-
-É só pedir!
